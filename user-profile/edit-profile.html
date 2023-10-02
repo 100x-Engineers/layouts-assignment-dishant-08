@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../dist/output.css" rel="stylesheet"/>
+</head>
+<body class="bg-neutral-1000  mx-4">
+    <header class=" flex py-3 pr-4 justify-between items-center self-stretch ">
+        <div class="flex items-center gap-5">
+
+           <a href="../user-profile/index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                <path d="M12 19.5L5 12.5L12 5.5" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19 12.5H5" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg></a>
+
+              <span class="text-neutral-50 font-Inter text-fx font-bold" >Edit profile</span>
+
+        </div>
+
+        <button class="bg-neutral-50 hover:bg-neutral-300 rounded-[1.875rem] flex items-center justify-center gap-2.5 py-2 px-5 shadow-3xl backdrop-blur-fx disabled:opacity-50">
+            <div class="text-neutral-1000 font-Inter text-xs  font-bold">Save</div>
+          </button>
+
+    </header>
+
+    <main>
+     <div class="relative" >
+        <img  src="../public/images/bgimage.png" alt="">
+       
+        <svg  class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2    bg-edit-svg  p-0.5 rounded-[62.5rem] flex justify-center items-center z-40" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M3 21C2.45 21 1.979 20.804 1.587 20.412C1.195 20.02 0.999335 19.5493 1 19V7C1 6.45 1.196 5.979 1.588 5.587C1.98 5.195 2.45067 4.99933 3 5H6.15L8 3H14V5H8.875L7.05 7H3V19H19V10H21V19C21 19.55 20.804 20.021 20.412 20.413C20.02 20.805 19.5493 21.0007 19 21H3ZM19 7V5H17V3H19V1H21V3H23V5H21V7H19ZM11 17.5C12.25 17.5 13.3127 17.0623 14.188 16.187C15.0633 15.3117 15.5007 14.2493 15.5 13C15.5 11.75 15.0623 10.6873 14.187 9.812C13.3117 8.93667 12.2493 8.49933 11 8.5C9.75 8.5 8.68734 8.93767 7.812 9.813C6.93667 10.6883 6.49934 11.7507 6.5 13C6.5 14.25 6.93767 15.3127 7.813 16.188C8.68834 17.0633 9.75067 17.5007 11 17.5ZM11 15.5C10.3 15.5 9.70834 15.2583 9.225 14.775C8.74167 14.2917 8.5 13.7 8.5 13C8.5 12.3 8.74167 11.7083 9.225 11.225C9.70834 10.7417 10.3 10.5 11 10.5C11.7 10.5 12.2917 10.7417 12.775 11.225C13.2583 11.7083 13.5 12.3 13.5 13C13.5 13.7 13.2583 14.2917 12.775 14.775C12.2917 15.2583 11.7 15.5 11 15.5Z" fill="#F9F9F9"/>
+          </svg>
+
+          <svg  class="absolute top-1/2 left-[60%] -translate-x-1/2 -translate-y-1/2    bg-edit-svg  p-0.5 rounded-[62.5rem] flex justify-center items-center z-40"  class="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M18 6L6 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6 6L18 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+
+          <img class=" absolute -bottom-4 left-3 border-4 rounded-[12.5rem]  border-neutral-1000 w-[4.25rem] h-[4.25rem] " src="../public/images/user-avatar.png" alt="user-avatar">
+
+     </div>
+
+     <div class=" mt-6 flex flex-col items-center gap-5 self-stretch ">
+
+        <!-- hidden group-focus-within:block -->
+        <fieldset class="flex  group w-full self-stretch py-4 px-3 items-center  rounded border  focus-within:border-twitter-blue justify-between grow">
+            <legend class="group-focus-within:text-twitter-blue text-neutral-500 font-Inter text-[0.75rem]  font-medium px-1 ">Name</legend>
+            <input type="text" name="" id="" placeholder="Name"  value="Dishant"  class="bg-transparent  text-neutral-50 font-Inter text-xl leading-[1.2] font-normal focus:outline-none  w-full   group-focus-within:placeholder-shown:scale-y-75 group-focus-within:placeholder-transparent    " >
+            
+        </fieldset>
+
+        <fieldset class="flex  group w-full self-stretch py-4 px-3 items-center  rounded border  focus-within:border-twitter-blue justify-between grow">
+            <legend class="group-focus-within:text-twitter-blue text-neutral-500 font-Inter text-[0.75rem]  font-medium px-1 ">Bio</legend>
+            <textarea cols="30" rows="4" class="bg-inherit  w-full h-full  caret-twitter-blue focus:outline-none resize-none
+            rounded-md placeholder-neutral-500 text-base text-neutral-50"  placeholder="Bio" >Digital Goodies Team - Web & Mobile UI/UX development; Graphics; Illustrations</textarea>            
+        </fieldset>
+
+        <fieldset class="flex  group w-full self-stretch py-4 px-3 items-center  rounded border  focus-within:border-twitter-blue justify-between grow">
+            <legend class="group-focus-within:text-twitter-blue text-neutral-500 font-Inter text-[0.75rem]  font-medium px-1 ">Location</legend>
+            <input type="text" name="" id="" placeholder="Location"    class="bg-transparent  text-neutral-50 font-Inter text-xl leading-[1.2] font-normal focus:outline-none  w-full   group-focus-within:placeholder-shown:scale-y-75 group-focus-within:placeholder-transparent    " >
+            
+        </fieldset>
+
+        <fieldset class="flex  group w-full self-stretch py-4 px-3 items-center  rounded border  focus-within:border-twitter-blue justify-between grow">
+            <legend class="group-focus-within:text-twitter-blue text-neutral-500 font-Inter text-[0.75rem]  font-medium px-1 ">Website</legend>
+            <input type="text" name="" id="" placeholder="Website"    class="bg-transparent  text-neutral-50 font-Inter text-xl leading-[1.2] font-normal focus:outline-none  w-full   group-focus-within:placeholder-shown:scale-y-75 group-focus-within:placeholder-transparent    " >
+            
+        </fieldset>
+
+
+   
+
+</div>
+    </main>
+
+    
+</body>
+</html>
