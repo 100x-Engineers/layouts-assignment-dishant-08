@@ -9,9 +9,16 @@ Using the Tailwind CSS components from your previous task, create the foundation
 ## Assignment Overview
 
 - **Login Screens:** Design a welcoming login and sign-up page layout.
+-  Link: https://100x-engineers.github.io/layouts-assignment-dishant-08/login/index.html
+-   Made main login page responsive .
+-   Click on create account button for next pages
 - **Home Feed:** Craft the primary interface layout, showcasing tweet structures and interaction icons.
+- Link : https://100x-engineers.github.io/layouts-assignment-dishant-08/home-feed/index.html
 - **Compose Tweet:** Layout a space for drafting tweets, indicating a 280 character limit and potential error states.
+- Link : https://100x-engineers.github.io/layouts-assignment-dishant-08/compose-tweet/index.html
 - **User Profile:** Create a comprehensive user profile layout, featuring placeholders for user details and tweets.
+- Link : https://100x-engineers.github.io/layouts-assignment-dishant-08/user-profile/index.html
+- Click on edit profile button , it redirects to edit profile page
 
 ## Resources
 
