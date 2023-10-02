@@ -635,6 +635,10 @@ video {
   inset: -0.25rem;
 }
 
+.-bottom-4 {
+  bottom: -1rem;
+}
+
 .-bottom-8 {
   bottom: -2rem;
 }
@@ -667,32 +671,16 @@ video {
   left: 0.75rem;
 }
 
+.left-\[60\%\] {
+  left: 60%;
+}
+
 .right-5 {
   right: 1.25rem;
 }
 
 .top-1\/2 {
   top: 50%;
-}
-
-.top-1\/3 {
-  top: 33.333333%;
-}
-
-.left-3\/4 {
-  left: 75%;
-}
-
-.left-\[52\%\] {
-  left: 52%;
-}
-
-.left-\[60\%\] {
-  left: 60%;
-}
-
-.-bottom-4 {
-  bottom: -1rem;
 }
 
 .isolate {
@@ -762,10 +750,6 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .mt-6 {
@@ -897,10 +881,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[26\.625rem\] {
-  width: 26.625rem;
 }
 
 .flex-1 {
@@ -2002,6 +1982,10 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-edit-svg {
+  background-color: rgba(0, 0, 0, 0.60);
+}
+
 .bg-inherit {
   background-color: inherit;
 }
@@ -2026,11 +2010,6 @@ video {
   background-color: rgb(33 35 39 / var(--tw-bg-opacity));
 }
 
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -2038,10 +2017,6 @@ video {
 .bg-twitter-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(29 155 240 / var(--tw-bg-opacity));
-}
-
-.bg-edit-svg {
-  background-color: rgba(0, 0, 0, 0.60);
 }
 
 .decoration-slice {
@@ -2166,18 +2141,6 @@ video {
      object-fit: scale-down;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
 .p-0 {
   padding: 0px;
 }
@@ -2186,28 +2149,12 @@ video {
   padding: 0.125rem;
 }
 
-.p-\[0\.2rem\] {
-  padding: 0.2rem;
+.p-4 {
+  padding: 1rem;
 }
 
-.p-\[0\.15rem\] {
-  padding: 0.15rem;
-}
-
-.p-\[0\.17rem\] {
-  padding: 0.17rem;
-}
-
-.p-\[0\.16rem\] {
-  padding: 0.16rem;
-}
-
-.p-\[0\.14rem\] {
-  padding: 0.14rem;
-}
-
-.p-\[0\.13rem\] {
-  padding: 0.13rem;
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-0 {
@@ -2289,8 +2236,16 @@ video {
   padding-bottom: 0px;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pt-0 {
@@ -2877,10 +2832,6 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
 }
 
 .ease-in {
