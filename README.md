@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Wzo1QZ03)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12085411&assignment_repo_type=AssignmentRepo)
 # 100x App: Building Layouts
 
@@ -8,9 +9,16 @@ Using the Tailwind CSS components from your previous task, create the foundation
 ## Assignment Overview
 
 - **Login Screens:** Design a welcoming login and sign-up page layout.
+-  Link: https://100x-engineers.github.io/layouts-assignment-dishant-08/login/index.html
+-   Made main login page responsive .
+-   Click on create account button for next pages
 - **Home Feed:** Craft the primary interface layout, showcasing tweet structures and interaction icons.
+- Link : https://100x-engineers.github.io/layouts-assignment-dishant-08/home-feed/index.html
 - **Compose Tweet:** Layout a space for drafting tweets, indicating a 280 character limit and potential error states.
+- Link : https://100x-engineers.github.io/layouts-assignment-dishant-08/compose-tweet/index.html
 - **User Profile:** Create a comprehensive user profile layout, featuring placeholders for user details and tweets.
+- Link : https://100x-engineers.github.io/layouts-assignment-dishant-08/user-profile/index.html
+- Click on edit profile button , it redirects to edit profile page
 
 ## Resources
 
