@@ -56,7 +56,7 @@ module.exports = {
    
 
      fontFamily : {
-      "Inter" : ['Inter'] ,
+       "Inter": ["Inter", "sans-serif"], 
       "Chirp" : ['Chirp'],
       'twitter': ['Twitter']
 
